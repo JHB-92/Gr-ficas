@@ -13,7 +13,7 @@
                 "color":"magenta"
             },
             {
-                "name": "Freno electrodinámico",
+                "name": "Freno Electrodinámico",
                 "valores": [0,90,90],
                 "color":"cyan"
             }
@@ -39,7 +39,7 @@
                 "color":"magenta"
             },
             {
-                "name": "Freno electrodinámico",
+                "name": "Freno Electrodinámico",
                 "valores": [0,62.5,62.5],
                 "color":"cyan"
             }
@@ -65,7 +65,7 @@
                 "color":"magenta"
             },
             {
-                "name": "Freno electrodinámico",
+                "name": "Freno Electrodinámico",
                 "valores": [0,45,45],
                 "color":"cyan"
             }
@@ -91,7 +91,7 @@
                 "color":"magenta"
             },
             {
-                "name": "Freno electrodinámico",
+                "name": "Freno Electrodinámico",
                 "valores": [0,45,45],
                 "color":"cyan"
             }
@@ -117,7 +117,7 @@
                 "color":"magenta"
             },
             {
-                "name": "Freno electrodinámico",
+                "name": "Freno Electrodinámico",
                 "valores": [0,0,0],
                 "color":"cyan"
             }
@@ -143,7 +143,7 @@
                 "color":"magenta"
             },
             {
-                "name": "Freno electrodinámico",
+                "name": "Freno Electrodinámico",
                 "valores": [0,90,90],
                 "color":"cyan"
             }
@@ -169,7 +169,7 @@
                 "color":"magenta"
             },
             {
-                "name": "Freno electrodinámico",
+                "name": "Freno Electrodinámico",
                 "valores": [0,0,0],
                 "color":"cyan"
             }
