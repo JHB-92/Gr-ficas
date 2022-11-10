@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 class grafica:
 
-    def __init__(self, var_x = 'Variable x', var_y = 'Variable y', title = '', label_x = '', label_y = '', x_limit = (), y_limit =(), finish = 'False', save = False, label = ''):
+    def __init__(self, var_x = 'Variable x', var_y = 'Variable y', title = '', label_x = '', label_y = '', x_limit = (), y_limit =(), finish = 'False', save = False, label = '', color = ''):
         self.var_x = var_x
         self.var_y = var_y
         self.title = title
@@ -13,21 +13,22 @@ class grafica:
         self.x_limit = x_limit
         self.y_limit = y_limit
         self.label = label
+        self.color = color
 
     def scatter(self):
         
-        plt.scatter(self.var_x, self.var_y, label = self.label)
+        plt.scatter(self.var_x, self.var_y, label = self.label, color = self.color)
         self.__conditions__()
         self.__finish__()
 
     def line(self):
-        plt.plot(self.var_x, self.var_y, label = self.label)
+        plt.plot(self.var_x, self.var_y, label = self.label, color = self.color)
         self.__conditions__()
         self.__finish__()
 
     def fill_line(self):
-        plt.plot(self.var_x, self.var_y)
-        plt.fill_between(self.var_x, self.var_y, label = self.label)
+        plt.plot(self.var_x, self.var_y, color = "black")
+        plt.fill_between(self.var_x, self.var_y, label = self.label, color = self.color)
         self.__conditions__()
         self.__finish__()
 
@@ -41,7 +42,8 @@ class grafica:
         plt.ylim(self.y_limit)
 
     def __save__(self):
-        plt.savefig(self.title)
+        plt.savefig(self.title+".png", dpi = 800)
+        plt.close()
 
     def __finish__(self):
         if self.save == True:

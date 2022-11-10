@@ -1,18 +1,21 @@
 {
     "C_N6_97_202":[
         {
-            "title":"Freno de Servicio, 100 % freno electrodinámico disponible, Máximo Esfuerzo",
+            "title":"SB, 100 % ED, MXD",
             "funciones":[{
                 "name": "Freno Fricción A2",
-                "valores": [130,130,130]
+                "valores": [130,130,130],
+                "color":"violet"
             },
             {
                 "name": "Freno Fricción A1",
-                "valores": [65,110,110]
+                "valores": [65,110,110],
+                "color":"magenta"
             },
             {
                 "name": "Freno electrodinámico",
-                "valores": [0,90,90]
+                "valores": [0,90,90],
+                "color":"cyan"
             }
             ],
             "var_x": [0,5,50],
@@ -24,18 +27,21 @@
             "y_limit_sup":140
         },
         {
-            "title":"Freno de Servicio, 75 % freno electrodinámico disponible, Máximo Esfuerzo",
+            "title":"SB, 75 % ED, MXD",
             "funciones":[{
                 "name": "Freno Fricción A2",
-                "valores": [130,130,130]
+                "valores": [130,130,130],
+                "color":"violet"
             },
             {
                 "name": "Freno Fricción A1",
-                "valores": [65,110,110]
+                "valores": [65,110,110],
+                "color":"magenta"
             },
             {
                 "name": "Freno electrodinámico",
-                "valores": [0,67.5,67.5]
+                "valores": [0,62.5,62.5],
+                "color":"cyan"
             }
             ],
             "var_x": [0,5,50],
@@ -47,21 +53,24 @@
             "y_limit_sup":140
         },
         {
-            "title":"25 % freno electrodinámico disponible",
+            "title":"SB, 50 % ED, MXD",
             "funciones":[{
                 "name": "Freno Fricción A2",
-                "valores": [130,130,130]
+                "valores": [130,130,130],
+                "color":"violet"
             },
             {
                 "name": "Freno Fricción A1",
-                "valores": [65,110,110]
+                "valores": [65,110,110],
+                "color":"magenta"
             },
             {
                 "name": "Freno electrodinámico",
-                "valores": [0,90,90]
+                "valores": [0,45,45],
+                "color":"cyan"
             }
             ],
-            "var_x": [0,5,50],
+            "var_x": [0,5,25],
             "label_x":"Velocidad (km/h)",
             "label_y":"Fuerza de Frenado (kN)",
             "x_limit_inf":0,
@@ -70,21 +79,24 @@
             "y_limit_sup":140
         },
         {
-            "title":"0 % freno electrodinámico disponible",
+            "title":"SB, 25 % ED, MXD",
             "funciones":[{
                 "name": "Freno Fricción A2",
-                "valores": [130,130,130]
+                "valores": [130,130,130],
+                "color":"violet"
             },
             {
                 "name": "Freno Fricción A1",
-                "valores": [65,110,110]
+                "valores": [65,110,110],
+                "color":"magenta"
             },
             {
                 "name": "Freno electrodinámico",
-                "valores": [0,90,90]
+                "valores": [0,45,45],
+                "color":"cyan"
             }
             ],
-            "var_x": [0,5,50],
+            "var_x": [0,5,15],
             "label_x":"Velocidad (km/h)",
             "label_y":"Fuerza de Frenado (kN)",
             "x_limit_inf":0,
@@ -93,21 +105,24 @@
             "y_limit_sup":140
         },
         {
-            "title":"75% freno de fricción disponible",
+            "title":"SB, 0 % ED, MXD",
             "funciones":[{
                 "name": "Freno Fricción A2",
-                "valores": [130,130,130]
+                "valores": [130,130,130],
+                "color":"violet"
             },
             {
                 "name": "Freno Fricción A1",
-                "valores": [65,110,110]
+                "valores": [65,65,65],
+                "color":"magenta"
             },
             {
                 "name": "Freno electrodinámico",
-                "valores": [0,90,90]
+                "valores": [0,0,0],
+                "color":"cyan"
             }
             ],
-            "var_x": [0,5,50],
+            "var_x": [0,5,5],
             "label_x":"Velocidad (km/h)",
             "label_y":"Fuerza de Frenado (kN)",
             "x_limit_inf":0,
@@ -116,18 +131,47 @@
             "y_limit_sup":140
         },
         {
-            "title":"Menor o igual al 50 % freno fricción disponible",
+            "title":"SB, 75 % EP, MXD",
             "funciones":[{
                 "name": "Freno Fricción A2",
-                "valores": [130,130,130]
+                "valores": [97.5,130,130],
+                "color":"violet"
             },
             {
                 "name": "Freno Fricción A1",
-                "valores": [65,110,110]
+                "valores": [32.5,110,110],
+                "color":"magenta"
             },
             {
                 "name": "Freno electrodinámico",
-                "valores": [0,90,90]
+                "valores": [0,90,90],
+                "color":"cyan"
+            }
+            ],
+            "var_x": [0,5,40],
+            "label_x":"Velocidad (km/h)",
+            "label_y":"Fuerza de Frenado (kN)",
+            "x_limit_inf":0,
+            "x_limit_sup":50,
+            "y_limit_inf":0,
+            "y_limit_sup":140
+        },
+        {
+            "title":"SB, menor o igual a 50 % PB, MXD",
+            "funciones":[{
+                "name": "Freno Fricción A2",
+                "valores": [0,0,0],
+                "color":"violet"
+            },
+            {
+                "name": "Freno Fricción A1",
+                "valores": [0,0,0],
+                "color":"magenta"
+            },
+            {
+                "name": "Freno electrodinámico",
+                "valores": [0,0,0],
+                "color":"cyan"
             }
             ],
             "var_x": [0,5,50],
