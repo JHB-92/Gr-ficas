@@ -184,6 +184,7 @@
         }
     ],
     "C_J5":[{
+        
         "title":"Características de Carga",
         "funciones":[{
             "name": "30Hz",
@@ -234,6 +235,26 @@
         "x_limit_sup":310000,
         "y_limit_inf":80,
         "y_limit_sup":100
+    },
+    {"title":"Regresión Lineal Desviación Rendimientos (%)",
+    "funciones":[{
+        "name": "Desviación",
+        "valores_y": [
+            17.1, 100.3, 18.7, 38.6, 12.7, 77.9, 43.2, 7.1, 24.2, 20.5, 9.4, 61.1, 26.0, 22.5, 23.3, 17.1, -15.4, 29.1, 27.7, 27.4
+    ],
+        "valores_x":[
+            10555, 12096, 16302, 22514, 29751, 41060, 46196, 56137, 67244, 82674, 106384, 127508, 138458, 157470, 171124, 196315, 220167, 240275, 253474, 293406
+
+    ],
+        "color":"magenta"
+    }],
+        "label_x":"Potencia (W)",
+        "label_y":"% Desviación",
+        "x_limit_inf":60,
+        "x_limit_sup":80,
+        "y_limit_inf":-50,
+        "y_limit_sup":50
+
     },
     {"title":"Rendimientos Declarados vs Obtenidos",
     "funciones":

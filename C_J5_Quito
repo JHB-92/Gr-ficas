@@ -3,7 +3,7 @@ import json
 
 f = open("points.json", encoding="utf8")
 graficas = json.load(f)
-array_graphics = ["line", "scatter", "fill_line"]
+array_graphics = ["line", "scatter", "fill_line", "linear_regression"]
 control = False
 ## FUNCIONES
 # EVITA QUE DE FALLO EL SCRIPT POR METER MAL UN NOMBRE DE VARIABLE
@@ -23,6 +23,8 @@ def plotting(input_graf):
         gr.fill_line()
     elif input_graf == "scatter":
         gr.scatter()
+    elif input_graf == "linear_regression":
+        gr.linear_regression()
 
 
 ## SCRIPT PRINCIPAL
